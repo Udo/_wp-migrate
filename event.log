@@ -1,0 +1,16 @@
+2016-11-09 05:44:29 INFO root signed out from 185.23.213.22
+2016-11-09 05:44:th INFO root signed in from 185.23.213.22
+2016-11-09 05:46:44 INFO root signed out from 185.23.213.22
+2016-11-09 05:46:48 WARN root3 sign-in failure from 185.23.213.22
+2016-11-09 05:46:50 INFO root signed in from 185.23.213.22
+2016-11-10 00:43:38 INFO root signed in from 156.67.136.192
+2016-11-16 10:34:15 INFO root signed in from 217.91.181.233
+2016-11-16 14:14:03 INFO root signed in from 217.91.181.233
+2016-11-16 16:11:02 INFO root signed in from 217.91.181.233
+2016-11-17 03:38:18 INFO root signed in from 93.190.137.119
+2016-11-17 04:24:22 MIGRATE root from /var/www/html/mybod-e-shape.de/ to /var/www/html/development/
+{"result":"OK","input":{"sourceKey":"0","substSrc":"mybod-e-shape.de","exclude":"wp-config.php","destKey":"1","substDest":"dev.mybod-e-shape.de","cmd":"migrate-execute"}}
+{"result":"OK","input":{"sourceKey":"0","substSrc":"mybod-e-shape.de","exclude":"wp-config.php","destKey":"1","substDest":"dev.mybod-e-shape.de","cmd":"migrate-execute"}}
+2016-11-17 04:30:02 MIGRATE user=root from /var/www/html/mybod-e-shape.de/ to /var/www/html/development/
+2016-11-17 07:20:50 INFO root signed in from 217.91.181.233
+2016-11-17 08:51:41 INFO root signed in from 217.91.181.233

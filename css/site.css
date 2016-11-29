@@ -1,0 +1,142 @@
+body {
+  padding: 0px;
+  font-size: 14px;
+  font-family: Tahoma, Arial, helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body > div {
+  padding: 12px;
+}
+
+h1 {
+  margin: 0;
+  padding: 12px;
+}
+
+.inset {
+  padding: 0;
+}
+
+h2, .section-header {
+  padding: 12px;
+  margin: 0;
+  background: rgba(0,0,0,0.2);  
+  font-size: 100%;
+  font-weight: bold;
+}
+
+th {
+  text-align: left;
+}
+
+thead {
+  border-bottom: 3px solid rgba(0,0,0,0.2);
+}
+
+td, th {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 6px;
+  vertical-align: top;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+tr {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+input[type=submit], button {
+  cursor: pointer;
+  background: rgba(0,0,0,0.2);
+  border: 1px solid rgba(0,0,0,0.2);
+}
+
+input[type=submit]:hover, button:hover {
+  background: rgba(10,10,60,0.75);
+  color: white;
+}
+
+input[type=text], input[type=password], textarea {
+  width: 320px;
+  padding: 4px;
+  border: 2px solid rgba(0,0,0,0.2);
+  background: rgba(50,50,100,0.05);
+}
+
+label.field {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
+
+label {
+  cursor: pointer;
+}
+
+label:hover {
+  color: blue;
+}
+
+form > div {
+  margin-bottom: 8px;
+}
+
+.banner {
+  background: rgba(235,235,100,0.5);
+  border-top: 1px solid rgba(0,0,0,0.2);
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+nav {
+  background: rgba(0,0,0,0.75);
+  text-align: right;
+  color: rgba(255,255,255,0.25); 
+  padding-right: 12px;
+}
+
+nav > * {
+  color: rgba(255,255,255,0.75);  
+  display: inline-block;
+  padding: 12px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+nav a:hover {
+  color: yellow;
+  background: rgba(255,255,255,0.1);
+}
+
+.selected-row * {
+  font-weight: bold;
+}
+
+textarea {
+  width: 96%;
+  min-height: 80px;  
+}
+
+.error-banner {
+  font-weight: bold;
+  color: red;
+  padding: 8px;
+  margin-bottom: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
